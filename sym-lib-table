@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Kicad_Counts-rescue)(type Legacy)(uri ${KIPRJMOD}/Kicad_Counts-rescue.lib)(options "")(descr ""))
+  (lib (name KicadJE_Counts-rescue)(type Legacy)(uri ${KIPRJMOD}/KicadJE_Counts-rescue.lib)(options "")(descr ""))
+)
