@@ -1892,131 +1892,19 @@ $EndComp
 Connection ~ 3800 6100
 Wire Wire Line
 	3800 6100 3875 6100
-Text GLabel 2100 4700 2    50   Input ~ 0
-SCL-A5
-Text GLabel 2100 4150 2    50   Input ~ 0
-SDA-A4
 $Comp
 L Device:R_POT RV?
 U 1 1 5F13A9C4
-P 1850 4150
+P 2950 4400
 AR Path="/5F13A9C4" Ref="RV?"  Part="1" 
 AR Path="/5D60ED9A/5F13A9C4" Ref="RV?"  Part="1" 
-F 0 "RV?" V 1475 4300 50  0000 R CNN
-F 1 "100k_A4" V 1575 4325 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 1850 4150 50  0001 C CNN
-F 3 "~" H 1850 4150 50  0001 C CNN
-	1    1850 4150
-	1    0    0    -1  
+F 0 "RV?" V 2575 4550 50  0000 R CNN
+F 1 "100k_A4" V 2675 4575 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 4400 50  0001 C CNN
+F 3 "~" H 2950 4400 50  0001 C CNN
+	1    2950 4400
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	2000 4150 2050 4150
-$Comp
-L Device:R_POT RV?
-U 1 1 5F13A9CB
-P 1850 4700
-AR Path="/5F13A9CB" Ref="RV?"  Part="1" 
-AR Path="/5D60ED9A/5F13A9CB" Ref="RV?"  Part="1" 
-F 0 "RV?" V 1700 4875 50  0000 R CNN
-F 1 "100k_A5" V 1625 4775 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 1850 4700 50  0001 C CNN
-F 3 "~" H 1850 4700 50  0001 C CNN
-	1    1850 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 4700 2025 4700
-Wire Wire Line
-	1750 4400 1750 4000
-Wire Wire Line
-	1750 4000 1850 4000
-Wire Wire Line
-	1775 4850 1850 4850
-$Comp
-L power:GND #PWR?
-U 1 1 5F13A9D5
-P 1900 5025
-AR Path="/5F13A9D5" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/5F13A9D5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1900 4775 50  0001 C CNN
-F 1 "GND" H 1905 4852 50  0000 C CNN
-F 2 "" H 1900 5025 50  0001 C CNN
-F 3 "" H 1900 5025 50  0001 C CNN
-	1    1900 5025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F13A9DB
-P 1750 4000
-AR Path="/5F13A9DB" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/5F13A9DB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1750 3850 50  0001 C CNN
-F 1 "+5V" H 1700 3900 50  0000 C CNN
-F 2 "" H 1750 4000 50  0001 C CNN
-F 3 "" H 1750 4000 50  0001 C CNN
-	1    1750 4000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1750 4000
-$Comp
-L Device:C C?
-U 1 1 5F13A9E2
-P 2025 4850
-AR Path="/5F13A9E2" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5F13A9E2" Ref="C?"  Part="1" 
-F 0 "C?" H 2150 4900 50  0000 L CNN
-F 1 "100n" H 2150 4800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2063 4700 50  0001 C CNN
-F 3 "~" H 2025 4850 50  0001 C CNN
-	1    2025 4850
-	1    0    0    -1  
-$EndComp
-Connection ~ 2025 4700
-Wire Wire Line
-	2025 4700 2100 4700
-Wire Wire Line
-	1775 4850 1775 5025
-Wire Wire Line
-	1775 5025 1900 5025
-Wire Wire Line
-	2025 5025 2025 5000
-Connection ~ 1900 5025
-Wire Wire Line
-	1900 5025 2025 5025
-$Comp
-L Device:C C?
-U 1 1 5F13A9EF
-P 2050 4300
-AR Path="/5F13A9EF" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5F13A9EF" Ref="C?"  Part="1" 
-F 0 "C?" H 2225 4300 50  0000 L CNN
-F 1 "100n" H 2175 4225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2088 4150 50  0001 C CNN
-F 3 "~" H 2050 4300 50  0001 C CNN
-	1    2050 4300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2050 4150
-Wire Wire Line
-	2050 4150 2100 4150
-Wire Wire Line
-	2050 5025 2025 5025
-Connection ~ 2025 5025
-Wire Wire Line
-	1850 4550 1850 4400
-Wire Wire Line
-	1850 4400 1750 4400
-Wire Wire Line
-	1850 4300 1775 4300
-Wire Wire Line
-	1775 4300 1775 4450
-Connection ~ 1775 4850
-Wire Wire Line
-	2050 4450 1775 4450
-Connection ~ 1775 4450
-Wire Wire Line
-	1775 4450 1775 4850
 $Comp
 L Device:C C?
 U 1 1 5F16CEFE
@@ -2392,4 +2280,99 @@ Wire Notes Line
 	4175 575  4175 1900
 Wire Notes Line
 	600  1900 4175 1900
+Text HLabel 3250 4225 2    50   Input ~ 0
+POT3_H
+Text HLabel 3250 4400 2    50   Input ~ 0
+POT3_C
+Text HLabel 3250 4575 2    50   Input ~ 0
+POT3_L
+Text HLabel 3250 4775 2    50   Input ~ 0
+POT4_H
+Text HLabel 3250 4925 2    50   Input ~ 0
+POT4_C
+Text HLabel 3250 5075 2    50   Input ~ 0
+POT4_L
+$Comp
+L Device:R_POT RV?
+U 1 1 5F31783B
+P 2950 4925
+AR Path="/5F31783B" Ref="RV?"  Part="1" 
+AR Path="/5D60ED9A/5F31783B" Ref="RV?"  Part="1" 
+F 0 "RV?" V 2575 5075 50  0000 R CNN
+F 1 "100k_A4" V 2675 5100 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 4925 50  0001 C CNN
+F 3 "~" H 2950 4925 50  0001 C CNN
+	1    2950 4925
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2950 4775 3250 4775
+Wire Wire Line
+	3100 4925 3250 4925
+Wire Wire Line
+	2950 5075 3250 5075
+Wire Wire Line
+	3225 4575 2950 4575
+Wire Wire Line
+	2950 4575 2950 4550
+Wire Wire Line
+	2950 4250 2950 4225
+Wire Wire Line
+	2950 4225 3250 4225
+Wire Wire Line
+	3100 4400 3250 4400
+$Comp
+L Device:R_POT RV?
+U 1 1 5F3F817E
+P 2950 2825
+AR Path="/5F3F817E" Ref="RV?"  Part="1" 
+AR Path="/5D60ED9A/5F3F817E" Ref="RV?"  Part="1" 
+F 0 "RV?" V 2575 2975 50  0000 R CNN
+F 1 "100k_A4" V 2675 3000 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 2825 50  0001 C CNN
+F 3 "~" H 2950 2825 50  0001 C CNN
+	1    2950 2825
+	1    0    0    1   
+$EndComp
+Text HLabel 3250 2650 2    50   Input ~ 0
+POT3_H
+Text HLabel 3250 2825 2    50   Input ~ 0
+POT3_C
+Text HLabel 3250 3000 2    50   Input ~ 0
+POT3_L
+Text HLabel 3250 3200 2    50   Input ~ 0
+POT4_H
+Text HLabel 3250 3350 2    50   Input ~ 0
+POT4_C
+Text HLabel 3250 3500 2    50   Input ~ 0
+POT4_L
+$Comp
+L Device:R_POT RV?
+U 1 1 5F3F818E
+P 2950 3350
+AR Path="/5F3F818E" Ref="RV?"  Part="1" 
+AR Path="/5D60ED9A/5F3F818E" Ref="RV?"  Part="1" 
+F 0 "RV?" V 2575 3500 50  0000 R CNN
+F 1 "100k_A4" V 2675 3525 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 3350 50  0001 C CNN
+F 3 "~" H 2950 3350 50  0001 C CNN
+	1    2950 3350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2950 3200 3250 3200
+Wire Wire Line
+	3100 3350 3250 3350
+Wire Wire Line
+	2950 3500 3250 3500
+Wire Wire Line
+	3225 3000 2950 3000
+Wire Wire Line
+	2950 3000 2950 2975
+Wire Wire Line
+	2950 2675 2950 2650
+Wire Wire Line
+	2950 2650 3250 2650
+Wire Wire Line
+	3100 2825 3250 2825
 $EndSCHEMATC
