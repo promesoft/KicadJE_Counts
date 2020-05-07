@@ -14,141 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D5139E9
-P 925 6875
-AR Path="/5CF11B19/5D5139E9" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB58B/5D5139E9" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB615/5D5139E9" Ref="#FLG?"  Part="1" 
-AR Path="/5D60ED9A/5D5139E9" Ref="#FLG0302"  Part="1" 
-F 0 "#FLG0302" H 925 6950 50  0001 C CNN
-F 1 "PWR_FLAG" H 925 7049 50  0000 C CNN
-F 2 "" H 925 6875 50  0001 C CNN
-F 3 "~" H 925 6875 50  0001 C CNN
-	1    925  6875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5D5139EF
-P 1300 6875
-AR Path="/5CF11B19/5D5139EF" Ref="U?"  Part="3" 
-AR Path="/5D4DB58B/5D5139EF" Ref="U?"  Part="3" 
-AR Path="/5D4DB615/5D5139EF" Ref="U?"  Part="3" 
-AR Path="/5D60ED9A/5D5139EF" Ref="U301"  Part="3" 
-F 0 "U301" H 1275 7550 50  0000 C CNN
-F 1 "TL072" H 1250 7400 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1300 6875 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1300 6875 50  0001 C CNN
-	3    1300 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D513A01
-P 1075 6875
-AR Path="/5CF11B19/5D513A01" Ref="#PWR?"  Part="1" 
-AR Path="/5D4DB58B/5D513A01" Ref="#PWR?"  Part="1" 
-AR Path="/5D4DB615/5D513A01" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/5D513A01" Ref="#PWR0302"  Part="1" 
-F 0 "#PWR0302" H 1075 6625 50  0001 C CNN
-F 1 "GND" H 1080 6702 50  0000 C CNN
-F 2 "" H 1075 6875 50  0001 C CNN
-F 3 "" H 1075 6875 50  0001 C CNN
-	1    1075 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D513A07
-P 1950 6725
-AR Path="/5CF11B19/5D513A07" Ref="C?"  Part="1" 
-AR Path="/5D4DB58B/5D513A07" Ref="C?"  Part="1" 
-AR Path="/5D4DB615/5D513A07" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5D513A07" Ref="C303"  Part="1" 
-F 0 "C303" H 2000 6625 50  0000 L CNN
-F 1 "100n" H 1900 6525 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 1988 6575 50  0001 C CNN
-F 3 "~" H 1950 6725 50  0001 C CNN
-	1    1950 6725
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D513A0D
-P 1950 7025
-AR Path="/5CF11B19/5D513A0D" Ref="C?"  Part="1" 
-AR Path="/5D4DB58B/5D513A0D" Ref="C?"  Part="1" 
-AR Path="/5D4DB615/5D513A0D" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5D513A0D" Ref="C304"  Part="1" 
-F 0 "C304" H 1750 7125 50  0000 L CNN
-F 1 "100n" H 1850 7275 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 1988 6875 50  0001 C CNN
-F 3 "~" H 1950 7025 50  0001 C CNN
-	1    1950 7025
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D513A19
-P 1550 6575
-AR Path="/5CF11B19/5D513A19" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB58B/5D513A19" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB615/5D513A19" Ref="#FLG?"  Part="1" 
-AR Path="/5D60ED9A/5D513A19" Ref="#FLG0304"  Part="1" 
-F 0 "#FLG0304" H 1550 6650 50  0001 C CNN
-F 1 "PWR_FLAG" H 1575 6800 50  0000 C CNN
-F 2 "" H 1550 6575 50  0001 C CNN
-F 3 "~" H 1550 6575 50  0001 C CNN
-	1    1550 6575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D513A1F
-P 1350 7175
-AR Path="/5CF11B19/5D513A1F" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB58B/5D513A1F" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB615/5D513A1F" Ref="#FLG?"  Part="1" 
-AR Path="/5D60ED9A/5D513A1F" Ref="#FLG0303"  Part="1" 
-F 0 "#FLG0303" H 1350 7250 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 7349 50  0000 C CNN
-F 2 "" H 1350 7175 50  0001 C CNN
-F 3 "~" H 1350 7175 50  0001 C CNN
-	1    1350 7175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D513A27
-P 2150 7025
-AR Path="/5CF11B19/5D513A27" Ref="C?"  Part="1" 
-AR Path="/5D4DB58B/5D513A27" Ref="C?"  Part="1" 
-AR Path="/5D4DB615/5D513A27" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5D513A27" Ref="C308"  Part="1" 
-F 0 "C308" H 1950 7125 50  0000 L CNN
-F 1 "100n" H 1950 7250 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 2188 6875 50  0001 C CNN
-F 3 "~" H 2150 7025 50  0001 C CNN
-	1    2150 7025
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D513A2D
-P 2150 6725
-AR Path="/5CF11B19/5D513A2D" Ref="C?"  Part="1" 
-AR Path="/5D4DB58B/5D513A2D" Ref="C?"  Part="1" 
-AR Path="/5D4DB615/5D513A2D" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5D513A2D" Ref="C307"  Part="1" 
-F 0 "C307" H 1950 6650 50  0000 L CNN
-F 1 "100n" H 2100 6525 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 2188 6575 50  0001 C CNN
-F 3 "~" H 2150 6725 50  0001 C CNN
-	1    2150 6725
-	-1   0    0    1   
-$EndComp
-$Comp
 L Mechanical:MountingHole H?
 U 1 1 5D513A45
 P 675 6075
@@ -208,21 +73,6 @@ F 3 "~" H 675 6275 50  0001 C CNN
 	1    675  6275
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 7175
-Connection ~ 1950 7175
-Wire Wire Line
-	1950 7175 2150 7175
-Connection ~ 1550 6575
-Connection ~ 1950 6575
-Wire Wire Line
-	1950 6575 2150 6575
-Connection ~ 1075 6875
-Wire Wire Line
-	925  6875 1075 6875
-Connection ~ 1950 6875
-Wire Wire Line
-	1950 6875 2150 6875
-Connection ~ 2150 6875
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5D517B60
@@ -253,36 +103,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5625 2450 50  0001 C CNN
 	2    5625 2450
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	1350 7175 1950 7175
-Wire Wire Line
-	1075 6875 1950 6875
-$Comp
-L power:+12V #PWR0304
-U 1 1 5D58F7D5
-P 2150 6575
-F 0 "#PWR0304" H 2150 6425 50  0001 C CNN
-F 1 "+12V" H 2165 6748 50  0000 C CNN
-F 2 "" H 2150 6575 50  0001 C CNN
-F 3 "" H 2150 6575 50  0001 C CNN
-	1    2150 6575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR0305
-U 1 1 5D59049F
-P 2150 7175
-F 0 "#PWR0305" H 2150 7275 50  0001 C CNN
-F 1 "-12V" H 2165 7348 50  0000 C CNN
-F 2 "" H 2150 7175 50  0001 C CNN
-F 3 "" H 2150 7175 50  0001 C CNN
-	1    2150 7175
-	-1   0    0    1   
-$EndComp
-Connection ~ 2150 7175
-Connection ~ 2150 6575
-Wire Wire Line
-	1550 6575 1950 6575
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5D7994F9
@@ -476,31 +296,6 @@ Wire Wire Line
 Text GLabel 5525 7375 0    50   Input ~ 0
 Out2_Final
 Connection ~ 5900 6525
-Wire Wire Line
-	1275 6575 1550 6575
-Wire Wire Line
-	1200 6575 1275 6575
-Connection ~ 1275 6575
-Wire Wire Line
-	1275 7175 1350 7175
-Wire Wire Line
-	1200 7175 1275 7175
-Connection ~ 1275 7175
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5D513A3F
-P 1375 6875
-AR Path="/5CF11B19/5D513A3F" Ref="U?"  Part="3" 
-AR Path="/5D4DB58B/5D513A3F" Ref="U?"  Part="3" 
-AR Path="/5D4DB615/5D513A3F" Ref="U?"  Part="3" 
-AR Path="/5D60ED9A/5D513A3F" Ref="U302"  Part="3" 
-F 0 "U302" H 1275 7625 50  0000 C CNN
-F 1 "TL072" H 1250 7475 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1375 6875 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1375 6875 50  0001 C CNN
-	3    1375 6875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5D79C6D8
@@ -1906,34 +1701,20 @@ F 3 "~" H 2950 4400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5F16CEFE
-P 975 1150
-AR Path="/5F16CEFE" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5F16CEFE" Ref="C301"  Part="1" 
-F 0 "C301" H 1090 1196 50  0000 L CNN
-F 1 "100n" H 1090 1105 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 1013 1000 50  0001 C CNN
-F 3 "~" H 975 1150 50  0001 C CNN
-	1    975  1150
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5F16CF04
-P 975 950
+P 1275 950
 AR Path="/5F16CF04" Ref="#PWR?"  Part="1" 
 AR Path="/5D60ED9A/5F16CF04" Ref="#PWR0301"  Part="1" 
-F 0 "#PWR0301" H 975 800 50  0001 C CNN
-F 1 "+5V" H 925 850 50  0000 C CNN
-F 2 "" H 975 950 50  0001 C CNN
-F 3 "" H 975 950 50  0001 C CNN
-	1    975  950 
+F 0 "#PWR0301" H 1275 800 50  0001 C CNN
+F 1 "+5V" H 1225 850 50  0000 C CNN
+F 2 "" H 1275 950 50  0001 C CNN
+F 3 "" H 1275 950 50  0001 C CNN
+	1    1275 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	975  1000 975  950 
-Connection ~ 975  1000
+	1275 1000 1275 950 
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5F16CF0C
@@ -1946,21 +1727,6 @@ F 2 "" H 675 1300 50  0001 C CNN
 F 3 "~" H 675 1300 50  0001 C CNN
 	1    675  1300
 	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	675  1300 975  1300
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5F16CF13
-P 1775 1400
-AR Path="/5F16CF13" Ref="U?"  Part="3" 
-AR Path="/5D60ED9A/5F16CF13" Ref="U303"  Part="3" 
-F 0 "U303" H 1750 2075 50  0000 C CNN
-F 1 "TL072" H 1725 1925 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1775 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1775 1400 50  0001 C CNN
-	3    1775 1400
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C?
@@ -2002,10 +1768,6 @@ F 3 "" H 1825 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2025 1400
-Wire Wire Line
-	1675 1700 1750 1700
-Wire Wire Line
-	1675 1100 1750 1100
 $Comp
 L Device:C C?
 U 1 1 5F16CF2E
@@ -2085,8 +1847,6 @@ Wire Wire Line
 Wire Wire Line
 	2975 600  2975 1000
 Connection ~ 2975 1000
-Wire Wire Line
-	2975 1000 1600 1000
 Wire Wire Line
 	3575 1600 3575 1500
 Wire Wire Line
@@ -2171,12 +1931,6 @@ Text GLabel 1625 1700 0    50   Input ~ 0
 -12V
 Text GLabel 1600 1100 0    50   Input ~ 0
 +12V
-Wire Wire Line
-	1625 1700 1675 1700
-Connection ~ 1675 1700
-Wire Wire Line
-	1600 1100 1675 1100
-Connection ~ 1675 1100
 $Comp
 L Device:C C?
 U 1 1 5F16CF89
@@ -2203,25 +1957,6 @@ F 3 "~" H 2625 1250 50  0001 C CNN
 	1    2625 1250
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:CP C?
-U 1 1 5F16CF95
-P 1200 1150
-AR Path="/5F16CF95" Ref="C?"  Part="1" 
-AR Path="/5D60ED9A/5F16CF95" Ref="C302"  Part="1" 
-F 0 "C302" H 1100 1375 50  0000 L CNN
-F 1 "100uF" H 1100 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1238 1000 50  0001 C CNN
-F 3 "~" H 1200 1150 50  0001 C CNN
-	1    1200 1150
-	1    0    0    -1  
-$EndComp
-Connection ~ 1200 1000
-Wire Wire Line
-	1200 1000 975  1000
-Wire Wire Line
-	975  1300 1200 1300
-Connection ~ 975  1300
 $Comp
 L Device:D D?
 U 1 1 5F16CF9F
@@ -2257,43 +1992,9 @@ $EndComp
 Connection ~ 2200 1700
 Wire Wire Line
 	2200 1700 2425 1700
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5F16CFB1
-P 1850 1400
-AR Path="/5F16CFB1" Ref="U?"  Part="3" 
-AR Path="/5D60ED9A/5F16CFB1" Ref="U304"  Part="3" 
-F 0 "U304" H 1750 2150 50  0000 C CNN
-F 1 "TL072" H 1725 2000 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1850 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1850 1400 50  0001 C CNN
-	3    1850 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ 1750 1700
-Wire Wire Line
-	1750 1700 1825 1700
-Connection ~ 1750 1100
-Wire Wire Line
-	1750 1100 2025 1100
 Connection ~ 2625 1700
 Connection ~ 2625 1400
 Connection ~ 2625 1100
-$Comp
-L Device:Polyfuse F?
-U 1 1 5F16CFBE
-P 1450 1000
-AR Path="/5F16CFBE" Ref="F?"  Part="1" 
-AR Path="/5D60ED9A/5F16CFBE" Ref="F301"  Part="1" 
-F 0 "F301" V 1225 1000 50  0000 C CNN
-F 1 "Polyfuse" V 1316 1000 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1500 800 50  0001 L CNN
-F 3 "~" H 1450 1000 50  0001 C CNN
-	1    1450 1000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 1000 1200 1000
 Text Label 3575 1000 0    50   ~ 0
 +5Vin
 Wire Wire Line
@@ -2303,7 +2004,6 @@ Wire Wire Line
 Connection ~ 1825 1400
 Wire Wire Line
 	1825 1400 2025 1400
-Connection ~ 1200 1300
 Wire Wire Line
 	2625 1100 2875 1100
 Wire Wire Line
@@ -2413,4 +2113,50 @@ Wire Wire Line
 	2950 2650 3250 2650
 Wire Wire Line
 	3100 2825 3250 2825
+Wire Wire Line
+	1750 1100 2025 1100
+Connection ~ 1750 1100
+Wire Wire Line
+	1750 1700 1825 1700
+Connection ~ 1750 1700
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 5F16CFB1
+P 1850 1400
+AR Path="/5F16CFB1" Ref="U?"  Part="3" 
+AR Path="/5D60ED9A/5F16CFB1" Ref="U302"  Part="3" 
+F 0 "U302" H 1750 2150 50  0000 C CNN
+F 1 "TL072" H 1725 2000 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1850 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1850 1400 50  0001 C CNN
+	3    1850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1100 1675 1100
+Wire Wire Line
+	1675 1100 1750 1100
+Connection ~ 1675 1100
+Wire Wire Line
+	1625 1700 1675 1700
+Wire Wire Line
+	1675 1700 1750 1700
+Connection ~ 1675 1700
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 5F16CF13
+P 1775 1400
+AR Path="/5F16CF13" Ref="U?"  Part="3" 
+AR Path="/5D60ED9A/5F16CF13" Ref="U301"  Part="3" 
+F 0 "U301" H 1750 2075 50  0000 C CNN
+F 1 "TL072" H 1725 1925 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1775 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1775 1400 50  0001 C CNN
+	3    1775 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	675  1300 1200 1300
+Wire Wire Line
+	1275 1000 2975 1000
 $EndSCHEMATC
