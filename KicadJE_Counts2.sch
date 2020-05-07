@@ -1694,7 +1694,7 @@ P 2950 4400
 AR Path="/5F13A9C4" Ref="RV?"  Part="1" 
 AR Path="/5D60ED9A/5F13A9C4" Ref="RV303"  Part="1" 
 F 0 "RV303" V 2575 4550 50  0000 R CNN
-F 1 "100k_A4" V 2675 4575 50  0000 R CNN
+F 1 "100k_2.1" V 2675 4575 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 4400 50  0001 C CNN
 F 3 "~" H 2950 4400 50  0001 C CNN
 	1    2950 4400
@@ -2037,7 +2037,7 @@ P 2950 4925
 AR Path="/5F31783B" Ref="RV?"  Part="1" 
 AR Path="/5D60ED9A/5F31783B" Ref="RV304"  Part="1" 
 F 0 "RV304" V 2575 5075 50  0000 R CNN
-F 1 "100k_A4" V 2675 5100 50  0000 R CNN
+F 1 "100k_2.2" V 2675 5100 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 4925 50  0001 C CNN
 F 3 "~" H 2950 4925 50  0001 C CNN
 	1    2950 4925
@@ -2066,24 +2066,12 @@ P 2950 2825
 AR Path="/5F3F817E" Ref="RV?"  Part="1" 
 AR Path="/5D60ED9A/5F3F817E" Ref="RV301"  Part="1" 
 F 0 "RV301" V 2575 2975 50  0000 R CNN
-F 1 "100k_A4" V 2675 3000 50  0000 R CNN
+F 1 "100k_1.1" V 2675 3000 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 2825 50  0001 C CNN
 F 3 "~" H 2950 2825 50  0001 C CNN
 	1    2950 2825
 	1    0    0    1   
 $EndComp
-Text HLabel 3250 2650 2    50   Input ~ 0
-POT3_H
-Text HLabel 3250 2825 2    50   Input ~ 0
-POT3_C
-Text HLabel 3250 3000 2    50   Input ~ 0
-POT3_L
-Text HLabel 3250 3200 2    50   Input ~ 0
-POT4_H
-Text HLabel 3250 3350 2    50   Input ~ 0
-POT4_C
-Text HLabel 3250 3500 2    50   Input ~ 0
-POT4_L
 $Comp
 L Device:R_POT RV?
 U 1 1 5F3F818E
@@ -2091,7 +2079,7 @@ P 2950 3350
 AR Path="/5F3F818E" Ref="RV?"  Part="1" 
 AR Path="/5D60ED9A/5F3F818E" Ref="RV302"  Part="1" 
 F 0 "RV302" V 2575 3500 50  0000 R CNN
-F 1 "100k_A4" V 2675 3525 50  0000 R CNN
+F 1 "100k_1.2" V 2675 3525 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 2950 3350 50  0001 C CNN
 F 3 "~" H 2950 3350 50  0001 C CNN
 	1    2950 3350
@@ -2165,8 +2153,8 @@ U 1 1 5EC3116D
 P 1475 1850
 AR Path="/5CF11B19/5EC3116D" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5EC3116D" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/5EC3116D" Ref="R?"  Part="1" 
-F 0 "R?" V 1475 1850 50  0000 C CNN
+AR Path="/5D60ED9A/5EC3116D" Ref="R334"  Part="1" 
+F 0 "R334" V 1475 1850 50  0000 C CNN
 F 1 "10k" V 1400 1825 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 1405 1850 50  0001 C CNN
 F 3 "~" H 1475 1850 50  0001 C CNN
@@ -2174,10 +2162,10 @@ F 3 "~" H 1475 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D317
 U 1 1 5EC3308B
 P 1200 1550
-F 0 "D?" V 1239 1432 50  0000 R CNN
+F 0 "D317" V 1239 1432 50  0000 R CNN
 F 1 "LED" V 1148 1432 50  0000 R CNN
 F 2 "AJ:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 1550 50  0001 C CNN
 F 3 "~" H 1200 1550 50  0001 C CNN
@@ -2193,4 +2181,16 @@ Wire Wire Line
 	1625 1850 1675 1850
 Wire Wire Line
 	1675 1850 1675 1700
+Text HLabel 3250 2650 2    50   Input ~ 0
+POT1_H
+Text HLabel 3250 2825 2    50   Input ~ 0
+POT1_C
+Text HLabel 3225 3000 2    50   Input ~ 0
+POT1_L
+Text HLabel 3250 3200 2    50   Input ~ 0
+POT2_H
+Text HLabel 3250 3350 2    50   Input ~ 0
+POT2_C
+Text HLabel 3250 3500 2    50   Input ~ 0
+POT2_L
 $EndSCHEMATC
