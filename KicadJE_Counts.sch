@@ -328,7 +328,7 @@ F 3 "" H 10550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10550 1900 10550 1800
+	10550 1900 10550 1850
 Wire Wire Line
 	10550 1500 10550 1425
 Wire Wire Line
@@ -377,11 +377,54 @@ F 3 "" H 10175 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10175 1900 10175 1800
+	10175 1900 10175 1850
 Wire Wire Line
 	10175 1500 10175 1425
 Wire Wire Line
 	10175 1125 10175 1075
 Text GLabel 10550 1075 1    50   Input ~ 0
 +12Vc
+$Comp
+L power:GNDS #PWR?
+U 1 1 5ECE79CC
+P 9800 1925
+AR Path="/5ECE79CC" Ref="#PWR?"  Part="1" 
+AR Path="/5D60ED9A/5ECE79CC" Ref="#PWR?"  Part="1" 
+AR Path="/5C781441/5ECE79CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9800 1675 50  0001 C CNN
+F 1 "GNDS" H 9805 1752 50  0000 C CNN
+F 2 "" H 9800 1925 50  0001 C CNN
+F 3 "" H 9800 1925 50  0001 C CNN
+	1    9800 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 1850 9800 1925
+$Comp
+L Device:R R?
+U 1 1 5ECE8C8F
+P 9975 1850
+AR Path="/5CF11B19/5ECE8C8F" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5ECE8C8F" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/5ECE8C8F" Ref="R?"  Part="1" 
+AR Path="/5ECE8C8F" Ref="R?"  Part="1" 
+F 0 "R?" V 9975 1850 50  0000 C CNN
+F 1 "DNP" V 9900 1825 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 9905 1850 50  0001 C CNN
+F 3 "~" H 9975 1850 50  0001 C CNN
+	1    9975 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 1850 9825 1850
+Connection ~ 10550 1850
+Wire Wire Line
+	10550 1850 10550 1800
+Wire Wire Line
+	10125 1850 10175 1850
+Connection ~ 10175 1850
+Wire Wire Line
+	10175 1850 10175 1800
+Wire Wire Line
+	10175 1850 10550 1850
 $EndSCHEMATC
