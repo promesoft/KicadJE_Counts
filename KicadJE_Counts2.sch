@@ -2193,4 +2193,50 @@ Text HLabel 3250 3350 2    50   Input ~ 0
 POT2_C
 Text HLabel 3250 3500 2    50   Input ~ 0
 POT2_L
+$Comp
+L Device:LED D?
+U 1 1 5EC9B7FD
+P 3950 1400
+F 0 "D?" V 3989 1282 50  0000 R CNN
+F 1 "LED" V 3898 1282 50  0000 R CNN
+F 2 "AJ:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 1400 50  0001 C CNN
+F 3 "~" H 3950 1400 50  0001 C CNN
+	1    3950 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC9D17F
+P 3950 1025
+AR Path="/5CF11B19/5EC9D17F" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5EC9D17F" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/5EC9D17F" Ref="R?"  Part="1" 
+F 0 "R?" V 3950 1025 50  0000 C CNN
+F 1 "10k" V 3875 1000 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 3880 1025 50  0001 C CNN
+F 3 "~" H 3950 1025 50  0001 C CNN
+	1    3950 1025
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 825  1    50   Input ~ 0
++12V
+$Comp
+L power:GND #PWR?
+U 1 1 5EC9DA7F
+P 3950 1650
+AR Path="/5EC9DA7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D60ED9A/5EC9DA7F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 1400 50  0001 C CNN
+F 1 "GND" H 3955 1477 50  0000 C CNN
+F 2 "" H 3950 1650 50  0001 C CNN
+F 3 "" H 3950 1650 50  0001 C CNN
+	1    3950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1650 3950 1550
+Wire Wire Line
+	3950 1250 3950 1175
+Wire Wire Line
+	3950 875  3950 825 
 $EndSCHEMATC
