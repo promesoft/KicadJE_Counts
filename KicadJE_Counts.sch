@@ -428,10 +428,10 @@ Wire Wire Line
 Wire Wire Line
 	10175 1850 10550 1850
 $Comp
-L Connector_Generic_MountingPin:Conn_02x03_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin J108
 U 1 1 5ECEE662
 P 9500 1750
-F 0 "J?" H 9550 2067 50  0000 C CNN
+F 0 "J108" H 9550 2067 50  0000 C CNN
 F 1 "Conn_02x03_Male" H 9550 1976 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 9500 1750 50  0001 C CNN
 F 3 "~" H 9500 1750 50  0001 C CNN
