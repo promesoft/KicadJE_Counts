@@ -286,4 +286,102 @@ U 5D60ED9A
 F0 "KicadJE_Counts2" 50
 F1 "KicadJE_Counts2.sch" 50
 $EndSheet
+$Comp
+L Device:LED D?
+U 1 1 5ECDBE01
+P 10550 1650
+AR Path="/5D60ED9A/5ECDBE01" Ref="D?"  Part="1" 
+AR Path="/5ECDBE01" Ref="D?"  Part="1" 
+F 0 "D?" V 10589 1532 50  0000 R CNN
+F 1 "D_LED" V 10498 1532 50  0000 R CNN
+F 2 "AJ:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 1650 50  0001 C CNN
+F 3 "~" H 10550 1650 50  0001 C CNN
+	1    10550 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECDBE07
+P 10550 1275
+AR Path="/5CF11B19/5ECDBE07" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5ECDBE07" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/5ECDBE07" Ref="R?"  Part="1" 
+AR Path="/5ECDBE07" Ref="R?"  Part="1" 
+F 0 "R?" V 10550 1275 50  0000 C CNN
+F 1 "DNP" V 10475 1250 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10480 1275 50  0001 C CNN
+F 3 "~" H 10550 1275 50  0001 C CNN
+	1    10550 1275
+	-1   0    0    1   
+$EndComp
+Text GLabel 10550 1075 1    50   Input ~ 0
++12V
+$Comp
+L power:GND #PWR?
+U 1 1 5ECDBE0E
+P 10550 1900
+AR Path="/5ECDBE0E" Ref="#PWR?"  Part="1" 
+AR Path="/5D60ED9A/5ECDBE0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10550 1650 50  0001 C CNN
+F 1 "GND" H 10555 1727 50  0000 C CNN
+F 2 "" H 10550 1900 50  0001 C CNN
+F 3 "" H 10550 1900 50  0001 C CNN
+	1    10550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1900 10550 1800
+Wire Wire Line
+	10550 1500 10550 1425
+Wire Wire Line
+	10550 1125 10550 1075
+$Comp
+L Device:LED D?
+U 1 1 5ECDC753
+P 10175 1650
+AR Path="/5D60ED9A/5ECDC753" Ref="D?"  Part="1" 
+AR Path="/5ECDC753" Ref="D?"  Part="1" 
+F 0 "D?" V 10214 1532 50  0000 R CNN
+F 1 "D_LED" V 10123 1532 50  0000 R CNN
+F 2 "AJ:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10175 1650 50  0001 C CNN
+F 3 "~" H 10175 1650 50  0001 C CNN
+	1    10175 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECDC75D
+P 10175 1275
+AR Path="/5CF11B19/5ECDC75D" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5ECDC75D" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/5ECDC75D" Ref="R?"  Part="1" 
+AR Path="/5ECDC75D" Ref="R?"  Part="1" 
+F 0 "R?" V 10175 1275 50  0000 C CNN
+F 1 "DNP" V 10100 1250 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10105 1275 50  0001 C CNN
+F 3 "~" H 10175 1275 50  0001 C CNN
+	1    10175 1275
+	-1   0    0    1   
+$EndComp
+Text GLabel 10175 1075 1    50   Input ~ 0
++12V
+$Comp
+L power:GND #PWR?
+U 1 1 5ECDC768
+P 10175 1900
+AR Path="/5ECDC768" Ref="#PWR?"  Part="1" 
+AR Path="/5D60ED9A/5ECDC768" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10175 1650 50  0001 C CNN
+F 1 "GND" H 10180 1727 50  0000 C CNN
+F 2 "" H 10175 1900 50  0001 C CNN
+F 3 "" H 10175 1900 50  0001 C CNN
+	1    10175 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 1900 10175 1800
+Wire Wire Line
+	10175 1500 10175 1425
+Wire Wire Line
+	10175 1125 10175 1075
 $EndSCHEMATC
