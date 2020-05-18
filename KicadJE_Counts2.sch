@@ -363,8 +363,6 @@ Wire Wire Line
 Wire Wire Line
 	5175 2350 5175 2050
 Wire Wire Line
-	6125 2050 6125 2100
-Wire Wire Line
 	6125 2450 5925 2450
 $Comp
 L Device:R R?
@@ -730,12 +728,6 @@ Wire Notes Line
 	2550 5925 2550 7725
 Wire Notes Line
 	4925 5925 4925 7725
-Text HLabel 6050 4200 1    50   Input ~ 0
-POT3_H
-Text HLabel 5950 4200 1    50   Input ~ 0
-POT3_C
-Text HLabel 5850 4200 1    50   Input ~ 0
-POT3_L
 $Comp
 L Diode:LL4148 D?
 U 1 1 5D8A10F8
@@ -895,12 +887,6 @@ F 3 "~" H 5650 4225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 4225 5850 4225
-Text HLabel 9075 4000 1    50   Input ~ 0
-POT4_H
-Text HLabel 8975 4025 1    50   Input ~ 0
-POT4_C
-Text HLabel 8875 4025 1    50   Input ~ 0
-POT4_L
 Wire Wire Line
 	9150 4025 9150 4650
 Wire Wire Line
@@ -924,25 +910,7 @@ $EndComp
 Wire Wire Line
 	9750 4650 9800 4650
 Wire Wire Line
-	8975 4025 9075 4025
-Wire Wire Line
-	8875 4025 8775 4025
-Text HLabel 5775 2050 1    50   Input ~ 0
-POT1_H
-Text HLabel 5675 2050 1    50   Input ~ 0
-POT1_C
-Text HLabel 5575 2050 1    50   Input ~ 0
-POT1_L
-Wire Wire Line
 	5575 2050 5175 2050
-Text HLabel 8800 2025 1    50   Input ~ 0
-POT2_H
-Text HLabel 8700 2050 1    50   Input ~ 0
-POT2_C
-Text HLabel 8600 2050 1    50   Input ~ 0
-POT2_L
-Wire Wire Line
-	8600 2050 8275 2050
 $Comp
 L Device:R R?
 U 1 1 5D9BF36E
@@ -975,7 +943,6 @@ F 3 "~" H 8000 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8150 2050 8275 2050
-Connection ~ 8275 2050
 $Comp
 L power:GND #PWR?
 U 1 1 5D9C7B23
@@ -1087,7 +1054,6 @@ Wire Wire Line
 	6125 1575 6025 1575
 Wire Wire Line
 	6125 1575 6125 1675
-Connection ~ 6125 2050
 Wire Wire Line
 	5725 1175 5175 1175
 Wire Wire Line
@@ -1116,8 +1082,6 @@ F 3 "~" H 6125 1825 50  0001 C CNN
 	1    6125 1825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6125 1975 6125 2050
 $Comp
 L Diode:LL4148 D?
 U 1 1 5DA35A3E
@@ -2014,18 +1978,6 @@ Wire Notes Line
 	4175 575  4175 1900
 Wire Notes Line
 	600  1900 4175 1900
-Text HLabel 3250 4225 2    50   Input ~ 0
-POT3_H
-Text HLabel 3250 4400 2    50   Input ~ 0
-POT3_C
-Text HLabel 3250 4575 2    50   Input ~ 0
-POT3_L
-Text HLabel 3250 4775 2    50   Input ~ 0
-POT4_H
-Text HLabel 3250 4925 2    50   Input ~ 0
-POT4_C
-Text HLabel 3250 5075 2    50   Input ~ 0
-POT4_L
 $Comp
 L Device:R_POT RV?
 U 1 1 5F31783B
@@ -2086,13 +2038,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3500 3250 3500
 Wire Wire Line
-	3225 3000 2950 3000
-Wire Wire Line
 	2950 3000 2950 2975
-Wire Wire Line
-	2950 2675 2950 2650
-Wire Wire Line
-	2950 2650 3250 2650
 Wire Wire Line
 	3100 2825 3250 2825
 Wire Wire Line
@@ -2175,34 +2121,101 @@ Wire Wire Line
 	1625 1850 1675 1850
 Wire Wire Line
 	1675 1850 1675 1700
-Text HLabel 3250 2650 2    50   Input ~ 0
-POT1_H
-Text HLabel 3250 2825 2    50   Input ~ 0
-POT1_C
-Text HLabel 3225 3000 2    50   Input ~ 0
-POT1_L
-Text HLabel 3250 3200 2    50   Input ~ 0
-POT2_H
-Text HLabel 3250 3350 2    50   Input ~ 0
-POT2_C
-Text HLabel 3250 3500 2    50   Input ~ 0
-POT2_L
 Wire Wire Line
 	2950 4575 3250 4575
 Wire Wire Line
-	5775 2050 6125 2050
+	3250 2650 2950 2650
 Wire Wire Line
-	5675 2050 6125 2050
+	2950 2650 2950 2675
 Wire Wire Line
-	8700 2050 8800 2050
+	6125 1975 6125 2050
 Wire Wire Line
-	8800 2025 8800 2050
-Connection ~ 8800 2050
+	5850 2025 5850 2050
 Wire Wire Line
-	8800 2050 9175 2050
+	5850 2050 6125 2050
+Connection ~ 6125 2050
 Wire Wire Line
-	9075 4000 9075 4025
-Connection ~ 9075 4025
+	6125 2050 6125 2100
+Connection ~ 5850 2050
 Wire Wire Line
-	9075 4025 9150 4025
+	5700 2050 5850 2050
+Wire Wire Line
+	5700 2050 5700 2025
+Wire Wire Line
+	5575 2050 5575 2025
+Text GLabel 5575 2025 1    39   Input ~ 0
+POT1_L
+Text GLabel 5700 2025 1    39   Input ~ 0
+POT1_C
+Text GLabel 5850 2025 1    39   Input ~ 0
+POT1_H
+Text GLabel 3250 3000 2    39   Input ~ 0
+POT1_L
+Text GLabel 3250 2825 2    39   Input ~ 0
+POT1_C
+Text GLabel 3250 2650 2    39   Input ~ 0
+POT1_H
+Wire Wire Line
+	2950 3000 3250 3000
+Text GLabel 3250 3500 2    39   Input ~ 0
+POT2_L
+Text GLabel 3250 3350 2    39   Input ~ 0
+POT2_C
+Text GLabel 3250 3200 2    39   Input ~ 0
+POT2_H
+Text GLabel 8550 1975 1    39   Input ~ 0
+POT2_L
+Text GLabel 8700 1975 1    39   Input ~ 0
+POT2_C
+Text GLabel 8850 1975 1    39   Input ~ 0
+POT2_H
+Wire Wire Line
+	8700 1975 8700 2050
+Wire Wire Line
+	8700 2050 8850 2050
+Wire Wire Line
+	8850 1975 8850 2050
+Connection ~ 8850 2050
+Wire Wire Line
+	8850 2050 9175 2050
+Wire Wire Line
+	8550 2050 8275 2050
+Connection ~ 8275 2050
+Wire Wire Line
+	8550 1975 8550 2050
+Text GLabel 3250 4575 2    39   Input ~ 0
+POT3_L
+Text GLabel 3250 4400 2    39   Input ~ 0
+POT3_C
+Text GLabel 3250 4225 2    39   Input ~ 0
+POT3_H
+Text GLabel 3250 5075 2    39   Input ~ 0
+POT4_L
+Text GLabel 3250 4925 2    39   Input ~ 0
+POT4_C
+Text GLabel 3250 4775 2    39   Input ~ 0
+POT4_H
+Text GLabel 5850 4200 1    39   Input ~ 0
+POT3_L
+Text GLabel 5950 4200 1    39   Input ~ 0
+POT3_C
+Text GLabel 6050 4200 1    39   Input ~ 0
+POT3_H
+Text GLabel 8825 3950 1    39   Input ~ 0
+POT4_L
+Text GLabel 8975 3950 1    39   Input ~ 0
+POT4_C
+Text GLabel 9150 3950 1    39   Input ~ 0
+POT4_H
+Wire Wire Line
+	8775 4025 8825 4025
+Wire Wire Line
+	8825 4025 8825 3950
+Wire Wire Line
+	8975 4025 9150 4025
+Wire Wire Line
+	8975 3950 8975 4025
+Wire Wire Line
+	9150 3950 9150 4025
+Connection ~ 9150 4025
 $EndSCHEMATC
