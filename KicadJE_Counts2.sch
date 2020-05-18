@@ -895,7 +895,7 @@ F 3 "~" H 5650 4225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 4225 5850 4225
-Text HLabel 9075 4025 1    50   Input ~ 0
+Text HLabel 9075 4000 1    50   Input ~ 0
 POT4_H
 Text HLabel 8975 4025 1    50   Input ~ 0
 POT4_C
@@ -924,7 +924,7 @@ $EndComp
 Wire Wire Line
 	9750 4650 9800 4650
 Wire Wire Line
-	8975 4025 9150 4025
+	8975 4025 9075 4025
 Wire Wire Line
 	8875 4025 8775 4025
 Text HLabel 5775 2050 1    50   Input ~ 0
@@ -935,9 +935,7 @@ Text HLabel 5575 2050 1    50   Input ~ 0
 POT1_L
 Wire Wire Line
 	5575 2050 5175 2050
-Wire Wire Line
-	5675 2050 6125 2050
-Text HLabel 8800 2050 1    50   Input ~ 0
+Text HLabel 8800 2025 1    50   Input ~ 0
 POT2_H
 Text HLabel 8700 2050 1    50   Input ~ 0
 POT2_C
@@ -945,8 +943,6 @@ Text HLabel 8600 2050 1    50   Input ~ 0
 POT2_L
 Wire Wire Line
 	8600 2050 8275 2050
-Wire Wire Line
-	8700 2050 9175 2050
 $Comp
 L Device:R R?
 U 1 1 5D9BF36E
@@ -2050,8 +2046,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 5075 3250 5075
 Wire Wire Line
-	3225 4575 2950 4575
-Wire Wire Line
 	2950 4575 2950 4550
 Wire Wire Line
 	2950 4250 2950 4225
@@ -2193,4 +2187,22 @@ Text HLabel 3250 3350 2    50   Input ~ 0
 POT2_C
 Text HLabel 3250 3500 2    50   Input ~ 0
 POT2_L
+Wire Wire Line
+	2950 4575 3250 4575
+Wire Wire Line
+	5775 2050 6125 2050
+Wire Wire Line
+	5675 2050 6125 2050
+Wire Wire Line
+	8700 2050 8800 2050
+Wire Wire Line
+	8800 2025 8800 2050
+Connection ~ 8800 2050
+Wire Wire Line
+	8800 2050 9175 2050
+Wire Wire Line
+	9075 4000 9075 4025
+Connection ~ 9075 4025
+Wire Wire Line
+	9075 4025 9150 4025
 $EndSCHEMATC
