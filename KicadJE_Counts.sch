@@ -332,7 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 1500 10550 1425
 Wire Wire Line
-	10550 1125 10550 1075
+	10550 1125 10550 1100
 $Comp
 L Device:LED D?
 U 1 1 5ECDC753
@@ -381,17 +381,17 @@ Wire Wire Line
 Wire Wire Line
 	10175 1500 10175 1425
 Wire Wire Line
-	10175 1125 10175 1075
+	10175 1125 10175 1100
 Text GLabel 10550 1075 1    50   Input ~ 0
 +12Vc
 $Comp
-L power:GNDS #PWR?
+L power:GNDS #PWR0104
 U 1 1 5ECE79CC
 P 9800 1925
-AR Path="/5ECE79CC" Ref="#PWR?"  Part="1" 
+AR Path="/5ECE79CC" Ref="#PWR0104"  Part="1" 
 AR Path="/5D60ED9A/5ECE79CC" Ref="#PWR?"  Part="1" 
 AR Path="/5C781441/5ECE79CC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9800 1675 50  0001 C CNN
+F 0 "#PWR0104" H 9800 1675 50  0001 C CNN
 F 1 "GNDS" H 9805 1752 50  0000 C CNN
 F 2 "" H 9800 1925 50  0001 C CNN
 F 3 "" H 9800 1925 50  0001 C CNN
@@ -407,8 +407,8 @@ P 9975 1850
 AR Path="/5CF11B19/5ECE8C8F" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5ECE8C8F" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/5ECE8C8F" Ref="R?"  Part="1" 
-AR Path="/5ECE8C8F" Ref="R?"  Part="1" 
-F 0 "R?" V 9975 1850 50  0000 C CNN
+AR Path="/5ECE8C8F" Ref="R109"  Part="1" 
+F 0 "R109" V 9975 1850 50  0000 C CNN
 F 1 "DNP" V 9900 1825 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 9905 1850 50  0001 C CNN
 F 3 "~" H 9975 1850 50  0001 C CNN
@@ -427,4 +427,46 @@ Wire Wire Line
 	10175 1850 10175 1800
 Wire Wire Line
 	10175 1850 10550 1850
+$Comp
+L Connector_Generic_MountingPin:Conn_02x03_Top_Bottom_MountingPin J?
+U 1 1 5ECEE662
+P 9500 1750
+F 0 "J?" H 9550 2067 50  0000 C CNN
+F 1 "Conn_02x03_Male" H 9550 1976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 9500 1750 50  0001 C CNN
+F 3 "~" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 1850
+Wire Wire Line
+	9800 1750 10000 1750
+Wire Wire Line
+	10000 1750 10000 1100
+Wire Wire Line
+	10000 1100 10175 1100
+Connection ~ 10175 1100
+Wire Wire Line
+	10175 1100 10175 1075
+Wire Wire Line
+	9800 1650 9925 1650
+Wire Wire Line
+	9925 1650 9925 775 
+Wire Wire Line
+	9925 775  10450 775 
+Wire Wire Line
+	10450 775  10450 1100
+Wire Wire Line
+	10450 1100 10550 1100
+Connection ~ 10550 1100
+Wire Wire Line
+	10550 1100 10550 1075
+Wire Wire Line
+	9800 1850 9300 1850
+Wire Wire Line
+	9300 1750 9800 1750
+Connection ~ 9800 1750
+Wire Wire Line
+	9300 1650 9800 1650
+Connection ~ 9800 1650
 $EndSCHEMATC
