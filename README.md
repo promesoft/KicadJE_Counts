@@ -44,18 +44,17 @@ Adjustment:
 | ------------- | ------------- | ------------- |
 | Initial Inspection | |  |
 | Initial Technical Test | Counts |  |
-| Initial Technical Test | Counts |  |
+| Initial Technical Test | Dist Two |  |
 | Initial Product Test | Counts |  |
-| Initial Product Test | Counts |  |
+| Initial Product Test | Dist Two |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
 | Product Test | Counts | |
-| Product Test | Counts | |
-| Product Test | Counts | |
+| Product Test | Dist Two | |
 | Quality | Counts | |
-| Quality | Counts | |
+| Quality | Dist Two | |
 | Long Term Product Test |  |  |
 | Power Draw |  | 
 
@@ -70,8 +69,9 @@ Adjustment:
 
 # Schematic
 ## Counts
-![](Dist_two_sch.png)
 ![](Count_sch.png)
+## Dist Two
+![](Dist_two_sch.png)
 
 # Analysis
 ## Counts
