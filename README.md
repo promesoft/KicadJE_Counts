@@ -26,8 +26,8 @@ Output +/- 10V DC
  - signal
 
 Adjustment:
- - Distortion/gain section 1 (ch 1+2)
- - Distortion/gain section 2 (ch 1+2)
+ - Distortion/gain section 1 (ch 1+2) feedback dist
+ - Distortion/gain section 2 (ch 1+2) output stage dist + pos LED to GND
 
 # Status - in the mail
 ## Initial 
