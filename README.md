@@ -2,23 +2,32 @@
 Counter module as a successor to EU-3
 
 # Purpose
+## Count
 10 step counter
 
-## CV Util 1
+Input +/- 10V DC
+ - Clock  
+ - Hold
+ - Reset
+
+Output +/- 10V DC x 10
+ - Steps
+ - Clock
+
+Adjustment
+ - Frequency
+ - Hold
+
+## Dist Two
 Input +/- 10V DC
 
 Output +/- 10V DC
 
 Adjustment:
-Frequency
 
-## 
-V input
+Distortion/gain section 1
 
-V Output
-
-## 
-V input
+Distortion/gain section 2
 
 
 # Status - in the mail
