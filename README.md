@@ -21,16 +21,16 @@ V Output
 V input
 
 
-# Status - 
+# Status - in the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch |  |
-| | pcb |  |
-| | gerber |  |
-| production  |   |  |
-|  | produced |  |
-|  | delivered |  |
+| create material  | sch | ok |
+| | pcb | ok |
+| | gerber | ok |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | in the mail |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
