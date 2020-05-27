@@ -2,35 +2,43 @@
 Counter module as a successor to EU-3
 
 # Purpose
+## Count
 10 step counter
 
-## CV Util 1
 Input +/- 10V DC
+ - Clock  
+ - Hold
+ - Reset
+
+Output +/- 10V DC x 10
+ - Steps
+ - Clock
+
+Adjustment
+ - Frequency
+ - Hold
+
+## Dist Two
+Input +/- 10V DC
+ - signal
 
 Output +/- 10V DC
+ - signal
 
 Adjustment:
-Frequency
+ - Distortion/gain section 1 (ch 1+2)
+ - Distortion/gain section 2 (ch 1+2)
 
-## 
-V input
-
-V Output
-
-## 
-V input
-
-
-# Status - 
+# Status - in the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch |  |
-| | pcb |  |
-| | gerber |  |
-| production  |   |  |
-|  | produced |  |
-|  | delivered |  |
+| create material  | sch | ok |
+| | pcb | ok |
+| | gerber | ok |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | in the mail |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
