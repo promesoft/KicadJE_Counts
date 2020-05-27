@@ -66,7 +66,7 @@ Adjustment:
 ### 
 
 # Pictures
-![](KicadJE_Util_RevA/KicadJE_name.png)
+![](Count_sch.png)
 
 # Schematic
 ## Counts
