@@ -70,7 +70,7 @@ Adjustment:
 
 # Schematic
 ## Counts
-![](KicadJE_Util_RevA/KicadJE_name.png)
+![](Dist_two_sch.png)
 
 # Analysis
 ## Counts
