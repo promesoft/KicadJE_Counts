@@ -20,15 +20,14 @@ Adjustment
 
 ## Dist Two
 Input +/- 10V DC
+ - signal
 
 Output +/- 10V DC
+ - signal
 
 Adjustment:
-
-Distortion/gain section 1
-
-Distortion/gain section 2
-
+ - Distortion/gain section 1 (ch 1+2)
+ - Distortion/gain section 2 (ch 1+2)
 
 # Status - in the mail
 ## Initial 
