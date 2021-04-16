@@ -42,11 +42,11 @@ Adjustment:
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | | OK |
 | Initial Technical Test | Counts |  |
-| Initial Technical Test | Dist Two |  |
+| Initial Technical Test | Dist Two | OK - all pots are reversed |
 | Initial Product Test | Counts |  |
-| Initial Product Test | Dist Two |  |
+| Initial Product Test | Dist Two | Distorts - one channel more than the other - one input splits in two - default component values gives a lot or a little distortion |
 
 ## Secondary validation
 | Test  | Detail | Status |
