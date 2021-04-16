@@ -44,7 +44,7 @@ Adjustment:
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | OK |
 | Initial Technical Test | Counts |  |
-| Initial Technical Test | Dist Two | OK - all pots are reversed |
+| Initial Technical Test | Dist Two | OK - all pots are reversed - LED should be moved to the free spot between input and outputs |
 | Initial Product Test | Counts |  |
 | Initial Product Test | Dist Two | Distorts - one channel more than the other - one input splits in two - default component values gives a lot or a little distortion |
 
