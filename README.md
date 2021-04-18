@@ -59,7 +59,10 @@ Adjustment:
 | Power Draw |  | 
 
 ## Errata
-### Errata - 
+### Errata - Dist Two
+* all pots are reversed
+* default component values gives a lot or a little distortion
+
 
 ## Issues and Notes
 ### 
